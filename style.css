@@ -1,0 +1,180 @@
+*{
+    color: #635E5E;
+    background-color: #e3e6f3;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-size: 35px;
+    color:#088178;
+}
+/*home.html home page
+*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0,0,0.20);
+    position: sticky; 
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    padding-right: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#navbar li{
+    list-style: none;
+    padding:  0 25px;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color:#088178;
+   
+}
+
+#navbar li a.active{
+    color:#088178;
+   text-decoration-line: underline;
+}
+
+#home1{
+    background-image: url(./capture3.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0.20, 0.20,0,0.20);  
+    padding-top: 40vh;
+}
+
+#home1 p{  
+    color:#088178;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+/* about.html */
+
+.containing1{
+    padding-left: 7vw;
+    padding-top: 2vh;
+}
+
+.containing1 h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.containing1 p{
+    padding-left: 4vw;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.containing2{
+    padding-left: 7vw;
+    padding-top: 2vh;
+}
+
+.containing2 h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.card{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.card h3, span{
+    background-color: #f1f0f0;
+}
+
+.card .item{
+    background-color: #f1f0f0;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+.item div:first-child span{
+    font-size: 15px;
+
+}
+
+.card-item div:first-child span:nth-child(2){
+    margin-left: 20px;
+}
+
+
+
+/* contact.html */
+
+#contain{
+    padding-top: 2vh;
+    padding-left: 7vw;
+}
+
+#contain h1{
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-underline-position: below;
+}
+
+#form{
+    padding-left: 3vw;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#inputinfo{
+    font-size: 20px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+.sbutton{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: system-ui;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: #088178;
+}
+
+.sbutton:hover{
+    color:#e3e6f3;
+    background-color: #088178;
+    border-style: none;
+}
+
+#foot{
+    font-size: 25px;
+    padding-left:3vw ;
+}

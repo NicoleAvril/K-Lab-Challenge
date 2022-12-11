@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+
+    #header{
+        position: sticky!important;
+        padding-bottom: 0.1px;
+        padding-top: 0.1px;
+    }
+
+    #navbar{
+        display: block;
+        /*flex-direction: column;
+        padding-right: 15px;*/
+    }
+
+    #navbar li{
+        padding-top: 5px;
+    }
+/*about.html*/
+
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+            padding-right: auto;
+    }
+}
